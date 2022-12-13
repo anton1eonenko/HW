@@ -6,7 +6,7 @@ class Class {
   indexOfString(string: string, substring: string) {
     let result = []
     let b =  string
-      .split(" ")
+      .split(" ")   //
       .map((value, index) => {
         if (value === substring) {
           return index;

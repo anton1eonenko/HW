@@ -1,4 +1,4 @@
-import { Class } from "../HW";
+import { Class } from "../HW"; 
 
 describe("quantityOfIndex test", function() {
     it ("positive1", function() {
@@ -133,3 +133,7 @@ describe("changeIndex test", function() {
       expect(actual).toBe(expected)
   });
 });
+
+
+
+// fda
